@@ -1,0 +1,61 @@
+
+ <!-- Run on replit pls -->
+
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>levi=สำอร</title>
+   
+   <!-- Stylesheet -->
+   <link href="css/style.css" rel="stylesheet" type="text/css" />
+   
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+     href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" 
+     rel="stylesheet"
+   >
+   
+   <!-- Scripts -->
+   <script src="js/script.js" type="text/javascript"></script>
+ </head>
+   
+ <body class="body">
+   <header class="top-header">
+     <h1>levi = สำอร</h1> 
+   </header>
+   <main class="main">   
+     <!-- Translator -->
+     <section class="box">
+       <!-- Input -->
+       <form>
+         <div class="text-container">
+           <label class="text"
+                  for="translate-input">Before</label>
+         </div>
+         <textarea class="text-box"
+                   id="translate-input"></textarea>
+       </form>
+       <!-- Output -->
+       <div>
+         <div class="text-container">
+           <label
+             class="text"
+             for="translate-output"
+           >After</label>
+           <p class="copy-success" id="copy-success"></p>
+           <button class="text-copy" id="copy-btn">คัดลอก</button>
+         </div>
+         <textarea class="text-box"
+                   id="translate-output"
+                   readonly></textarea>
+       </div>
+     </section>
+   </main>
+   <footer class="bottom-footer"></footer>
+ </body>
+ </html>
